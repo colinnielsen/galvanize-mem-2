@@ -4,7 +4,7 @@ exports.up = function(knex, Promise) {
     table.increments()
     table.text('name')
     table.text('roaster')
-    table.decimal('aroma')
+    table.integer('aroma')
   })
 };
 
